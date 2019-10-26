@@ -1,0 +1,20 @@
+.container {
+    width: 70%;
+    padding-top: 2.5%;
+}
+
+.info-text-name {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.info-text-annotation {
+    font-size: 16px;
+    color: gray;
+}
+
+.pa-text {
+    font-size: 18px;
+}
