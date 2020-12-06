@@ -365,3 +365,17 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+.date {
+	position: absolute; 
+	right: 20px; 
+	color: brown;
+}
+
+
+@media screen and (max-width:1200px) {
+	.date {
+		display:none; 
+	}
+}
+  
