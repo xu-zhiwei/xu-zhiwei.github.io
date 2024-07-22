@@ -372,10 +372,28 @@ table.imgtable, table.imgtable td {
 	color: brown;
 }
 
+.peDesc {
+	text-align: justify;
+}
 
-@media screen and (max-width:1375px) {
+@media screen and (min-width:1050px) and (max-width:1250px) {
+	.peDesc {
+		width: 78%;
+	}
+}
+
+@media screen and (min-width:1250px) and (max-width:1400px) {
+	.peDesc {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width:1050px) {
 	.date {
 		display:none; 
+	}
+	.peDesc {
+		width: 100%;
 	}
 }
   
